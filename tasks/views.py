@@ -12,4 +12,5 @@ def show_task(request) :
     return HttpResponse("this is show page")
 def showTaskWithPara(request, id) :
     return HttpResponse(f"Showing task with parameter {id}")
-    
+def txt(request , id) :
+    return HttpResponse(f"this is Txt And id is: {id}")
