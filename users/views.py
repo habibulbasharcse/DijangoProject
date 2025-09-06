@@ -9,3 +9,6 @@ def showUserId(request, id):
     return HttpResponse(f"User Id is: {id}")
 
 
+def userName(request,name) :
+    return HttpResponse(f"Name is: {name}")
+
