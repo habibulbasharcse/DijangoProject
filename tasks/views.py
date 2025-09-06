@@ -10,5 +10,6 @@ def contact(request) :
 
 def show_task(request) :
     return HttpResponse("this is show page")
-def showTaskWithPara(request,id) :
+def showTaskWithPara(request, id) :
     return HttpResponse(f"Showing task with parameter {id}")
+    
