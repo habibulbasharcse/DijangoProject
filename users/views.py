@@ -8,3 +8,4 @@ def show_user(request) :
 def showUserId(request, id):
     return HttpResponse(f"User Id is: {id}")
 
+
